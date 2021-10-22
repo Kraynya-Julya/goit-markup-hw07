@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,KAAK,CAAC;EACF,oBAAoB,CAAA,QAAC;EACrB,mBAAmB,CAAA,QAAC;EACpB,cAAc,CAAA,QAAC;EACf,mBAAmB,CAAA,QAAC;EACpB,cAAc,CAAA,QAAC;EACf,mBAAmB,CAAA,OAAC;CACvB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_vars.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
