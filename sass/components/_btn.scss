@@ -1,0 +1,30 @@
+.button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--title--text-color);
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 32px;
+        padding-right: 32px;
+        border-radius: 4px;
+    
+    }
+    .hero-btn{
+        margin: auto;
+        
+    }
+    .item {
+        flex-basis: calc(100% / 5 - 30px);
+        margin-left: 30px;
+    }
+    
+    

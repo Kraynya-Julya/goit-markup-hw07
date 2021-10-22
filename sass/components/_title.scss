@@ -1,0 +1,20 @@
+.link-current {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .contacts-item-icon{
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        fill: currentColor;
+        margin-right: 10px;
+    }
+    .auth-nav-text {
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    
+    .nav-item{
+        position: relative;
+    }
+    .auth-nav-text:hover,
+    .auth-nav-text:focus {
+        color: var(--accent-color);
+    }

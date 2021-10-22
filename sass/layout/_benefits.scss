@@ -1,0 +1,54 @@
+.features-iten-antenna{
+    width: 70px;
+    height: 70px;
+}
+.features-icon{
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-item{
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    
+}
+.title {
+    display: flex;
+    margin-bottom: 10px;
+}
+.text-title{
+    font-family: Roboto, sans-serif;
+    color: #757575;
+    margin: 0;
+    width: 270px;
+    
+}
+
+.features-list{
+    display: flex;
+    margin: 0 auto;
+    margin-left: -27px;
+
+}
+.section{
+    padding-top: 107px;
+    padding-bottom: 100px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.section-title {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+    color:var(--primary-text-color);
+}
