@@ -298,6 +298,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 40px;
 }
 
 .close-button {
@@ -316,17 +317,12 @@ img {
   padding: 0;
 }
 
-.close-button :hover,
-.close-button :focus {
+.close-button:hover, .close-button:focus {
   fill: var(--accent-color);
 }
 
 .icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal {
-  padding: 40px;
 }
 
 .modal-title {
@@ -379,7 +375,7 @@ img {
   border-color: var(--accent-color);
 }
 
-.form-input:focus + .form-icon {
+.form-input:form-icon {
   fill: var(--accent-color);
 }
 
@@ -396,13 +392,6 @@ img {
 .input-wrapper {
   display: block;
   position: relative;
-}
-
-button, input, optgroup, select, textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
 }
 
 .form-textarea {
@@ -442,7 +431,7 @@ button, input, optgroup, select, textarea {
   color: var(--second-text-color);
 }
 
-.form-checkbox-label span {
+.form-checkbox-label:span {
   width: 16px;
   height: 15px;
   border: 2px solid #212121;
@@ -528,10 +517,10 @@ button, input, optgroup, select, textarea {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  background-color: #f5f4fa;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f5f4fa;
 }
 
 .mobile-item {
@@ -540,11 +529,19 @@ button, input, optgroup, select, textarea {
 }
 
 .title {
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 1.14;
+  align: left;
   display: flex;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .text-title {
+  font-family: Roboto, sans-serif;
+  color: var(--second-text-color);
   margin: 0;
   width: 270px;
 }
@@ -703,6 +700,7 @@ button, input, optgroup, select, textarea {
   padding-right: 0px;
   padding-bottom: 94px;
   padding-left: 0px;
+  background-color: #F5F4FA;
 }
 
 .masters-list {
@@ -739,6 +737,7 @@ button, input, optgroup, select, textarea {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-bottom: 30px;
 }
 
 .masrers-item-title {
@@ -749,6 +748,7 @@ button, input, optgroup, select, textarea {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-bottom: 10px;
 }
 
 .masters-item-text {
@@ -1086,5 +1086,203 @@ ul {
   width: 20px;
   height: 20px;
   fill: var(--title--text-color);
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button {
+  margin: auto;
+  padding-top: 93px;
+  margin-bottom: 50px;
+  background-color: var(--primary--bg-color);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title--text-color);
+  cursor: pointer;
+}
+
+.buton-text {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  flex-basis: calc(100% / 5 - 8px);
+  margin-left: 8px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  border: transparent;
+  border-radius: 4px;
+  padding: 6px 22px;
+  padding-bottom: 6px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 250ms, 250ms, 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s, 0s, 0s;
+}
+
+.buton-text:hover, .buton-text:focus {
+  background-color: var(--accent-color);
+  color: var(--title--text-color);
+}
+
+.button-item-list {
+  fill: var(--primary--bg-color);
+}
+
+.item {
+  padding-bottom: 50px;
+}
+
+.main-button {
+  background-color: var(--primary--bg-color);
+}
+
+.buton-text-item {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title--text-color);
+  background-color: var(--accent-color);
+}
+
+.button-item {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.gallery-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * 30px);
+  margin-top: calc(-1 * 30px);
+}
+
+.services-overlay {
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.gallery-top-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 54px;
+  padding-bottom: 72px;
+  color: var(--title--text-color);
+  background-color: rgba(33, 150, 243, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0;
+}
+
+.gallery-top-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.click {
+  display: inline-block;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.click:hover, .click:focus {
+  width: 370px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.gallery-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.gallery-list {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+  border: 1px solid #ececec;
+  width: 370px;
+  position: relative;
+}
+
+.gallery-list:hover .gallery-top-text {
+  transform: translateY(0);
+}
+
+.masters-item-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.gallery-text-item {
+  margin: auto;
+}
+
+.gallery-text {
+  margin: auto;
+}
+
+.gallery-text-item {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.gallery-text {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
 }
 /*# sourceMappingURL=main.css.map */

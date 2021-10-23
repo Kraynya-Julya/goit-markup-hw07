@@ -63,6 +63,7 @@
     padding-right: 0px;
     padding-bottom: 94px;
     padding-left: 0px;
+    background-color: #F5F4FA;
 }
 
 .masters-list {
@@ -91,22 +92,26 @@
 }
 .masters-item-text{
     
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-}
-.masrers-item-title {
-    font-family: Roboto, sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.14;
-text-align: center;
-letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-}
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+        margin-bottom: 30px;
+    
+    }
+    .masrers-item-title {
+        font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+        margin-bottom: 10px;
+    
+    }
 
 .masters-item-text {
     font-family: Roboto, sans-serif;
