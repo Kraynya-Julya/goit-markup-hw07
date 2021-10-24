@@ -2,7 +2,7 @@
     background-color: var(--title--text-color);
 }
 
-.clients-title {
+.clients-section__title {
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
@@ -20,15 +20,15 @@ color: var(--primary-text-color);
     fill: currentColor;
     
 }
-.clients-item {
+.clients-list__item {
     @extend %align-items;
     justify-content: center;
-    & + .clients-item {
+    & + .clients-list__item {
         margin-left: 30px;
     }
     
 }
-.clients-link {
+.clients-list__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,16 +36,15 @@ color: var(--primary-text-color);
     height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    &:hover .clients, 
-    &:focus .clients {
+    &:hover .clients-list__clients, 
+    &:focus .clients-list__clients {
     fill: var(--accent-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 }
    
-
-.clients {
+.clients-list__clients {
     display: flex;
     align-items: center;
     justify-content: center;

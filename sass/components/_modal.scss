@@ -141,7 +141,6 @@ font-style: normal;
     position: absolute;
 }
 
-
 .icon-checkbox {
     position: relative;
     width: 16px;
@@ -175,6 +174,7 @@ font-style: normal;
     cursor: pointer;
     color: var(--title--text-color);
     @include font (16px, 700, 30px, 0.06em);
+    display: block;
 }
 
 

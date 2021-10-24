@@ -24,7 +24,9 @@
     }
 
 .features-icon__text{
-    color: var(--second-text-color);
+    font-family: Roboto;
+    @include font (14px, 400, 16px, 0.03em);
+    color: #757575;
     margin: 0;
     width: 270px;
     
