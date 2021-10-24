@@ -50,7 +50,7 @@ img {
   align-items: center;
 }
 
-.button, .close-button, .features-icon, .work, .social-link {
+.button, .close-button, .features-icon, .gallery-list__work, .social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,7 +81,7 @@ img {
   border-radius: 4px;
 }
 
-.hero-btn {
+.hero__btn {
   margin: auto;
 }
 
@@ -230,21 +230,19 @@ img {
   background-size: cover;
 }
 
-.hero-title {
-  width: 696px;
-  margin: auto;
-  margin-bottom: 45px;
-}
-
-.hero-title {
+.hero__hero-title {
   font-family: Roboto, sans-serif;
   font-style: normal;
+  text-align: center;
   font-size: 44px;
   font-weight: 900;
-  line-height: 1.36364;
+  line-height: 0.68182;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--title--text-color);
+  width: 696px;
+  margin: auto;
+  margin-bottom: 45px;
 }
 
 .link-current {
@@ -504,7 +502,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.features-iten-antenna {
+.features-icon__iten-antenna {
   width: 70px;
   height: 70px;
 }
@@ -516,12 +514,12 @@ img {
   background-color: #f5f4fa;
 }
 
-.mobile-item {
+.features-list__mobile-item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
-.title {
+.features-icon__title {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
@@ -533,7 +531,7 @@ img {
   text-transform: uppercase;
 }
 
-.text-title {
+.features-icon__text {
   color: var(--second-text-color);
   margin: 0;
   width: 270px;
@@ -546,32 +544,24 @@ img {
 }
 
 .section {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14286;
+  letter-spacing: 0.03em;
   padding-top: 107px;
   padding-bottom: 100px;
   display: block;
   box-sizing: border-box;
 }
 
-.section-title {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: var(--primary-text-color);
-}
-
-.gallery-item {
+.gallery-list__item {
   position: relative;
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
-.work {
+.gallery-list__work {
   font-family: Roboto;
   font-style: normal;
   text-align: center;
@@ -598,7 +588,7 @@ img {
   margin-left: -30px;
 }
 
-.gallery-title {
+.gallery__title {
   margin: auto;
   margin-bottom: 50px;
   font-family: Roboto;
@@ -609,16 +599,6 @@ img {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-}
-
-.gallery-top-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.55556;
-  letter-spacing: 0.03em;
-  color: var(--title--text-color);
 }
 
 .social-list {
@@ -661,7 +641,7 @@ img {
   color: var(--primary-text-color);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.16667;
+  line-height: 0.5;
   letter-spacing: 0.03em;
   text-align: center;
   margin-top: 0;

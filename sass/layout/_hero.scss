@@ -10,16 +10,15 @@
 
  
 }
-.hero-title {
-    width: 696px;
-margin: auto;
-margin-bottom: 45px;
-}
 
-.hero-title{
-    font-family: Roboto, sans-serif;
+.hero__hero-title{
+ font-family: Roboto, sans-serif;
 font-style: normal;
-@include font (44px, 900, 60px, 0.06em);
+text-align: center;
+@include font (44px, 900, 30px, 0.06em);
 text-transform: uppercase;
-    color: var(--title--text-color);   
+color: var(--title--text-color);
+width: 696px;
+margin: auto;
+margin-bottom: 45px;   
 }
