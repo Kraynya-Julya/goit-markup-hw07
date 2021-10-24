@@ -7,8 +7,10 @@
     color: var(--accent-color);
 }
 .logo {
-    color:var(--primary-text-color);
+ margin-right: 90px;
+ color:var(--primary-text-color);
 }
+
 .link-current {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -24,22 +26,17 @@
     
     .auth-nav-text {
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+         &:hover,
+         &:focus {
+        color: var(--accent-color);
+        }
     }
     
     
     .nav-item{
         position: relative;
     }
-    .auth-nav-text:hover,
-    .auth-nav-text:focus {
-        color: var(--accent-color);
-    }
     
-        
-    
-    .logo {
-        margin-right: 90px;
-    }
     .site-nav{
         display: flex;
     }
@@ -95,11 +92,12 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
         color: var(--primary-text-color);
-    }
-    .link-current:hover,
-    .link-current:focus{
+        &:hover,
+    &:focus{
         color: var(--accent-color);
     }
+    }
+    
     
     .auth-nav-text {
         font-family: Roboto, sans-serif;
@@ -109,15 +107,14 @@
     line-height: 1.14x;
     letter-spacing: 0.02em;
     
-    color: var(--second-text-color)
-    
-    }
-    
-     .auth-nav-text:hover, 
-     .auth-nav-text:focus{
+    color: var(--second-text-color);
+    &:hover, 
+    &:focus{
         color: var(--accent-color);
+        }
     }
     
+     
     .current::after {
         position: absolute;
         bottom: -31px;
