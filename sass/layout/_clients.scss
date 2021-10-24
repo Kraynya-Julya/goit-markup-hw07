@@ -9,24 +9,19 @@
     margin-bottom: 60px;
     font-family: Roboto;
 font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
 text-align: center;
-letter-spacing: 0.03em;
+@include font (36px, 700, 42px, 0.03em );
 color: var(--primary-text-color);
 }
 
 .clients-list {
-    display: flex;
-    align-items: center;
+    @extend %align-items;
     justify-content: center;
     fill: currentColor;
     
 }
 .clients-item {
-    display: flex;
-    align-items: center;
+    @extend %align-items;
     justify-content: center;
     & + .clients-item {
         margin-left: 30px;

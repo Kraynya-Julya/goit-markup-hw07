@@ -1,11 +1,9 @@
 .social-list {
-    display: flex;
-    align-items: center;
+    @extend %align-items;
     justify-content: center;
 }
 .social-item {
-    display: flex;
-    align-items: center;
+    @extend %align-items;
     justify-content: center;
     list-style: none;
     
@@ -13,9 +11,7 @@
 
 
 .social-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %bg;
     border-radius: 22px;
     height: 44px;
     width: 44px;
