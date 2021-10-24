@@ -1,18 +1,15 @@
-.gallery-item {
+.gallery-list__item{
     position: relative;
      flex-basis: calc(100% / 3 - 30px);
      margin-left: 30px;
         
     }
 
-.work {
+.gallery-list__work {
     font-family: Roboto;
 font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.24;
 text-align: center;
-letter-spacing: 0.03em;
+@include font (14px, 700, 17px, 0.03em);
 text-transform: uppercase;
     position: absolute;
     bottom: 0;
@@ -32,24 +29,12 @@ text-transform: uppercase;
     margin-left: -30px;
 }
 
-.gallery-title {
+.gallery__title {
     margin: auto;
     margin-bottom: 50px;
     font-family: Roboto;
 font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.17;
 text-align: center;
-letter-spacing: 0.03em;
+@include font (36px, 700, 42px, 0.03em);
     color: var(--primary-text-color);
-}
-.gallery-top-text {
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 1.56;
-letter-spacing: 0.03em;
-color: var(--title--text-color);
 }

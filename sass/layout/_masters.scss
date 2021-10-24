@@ -39,10 +39,7 @@
 
 .masters-title{
     color: var(--primary-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16667;
-    letter-spacing: .03em;
+    @include font (36px, 700, 18px, 0.03em);
     text-align: center;
     margin-top: 0;
     margin-bottom: 50px;
@@ -83,22 +80,15 @@
 
 }
 .masters-item-text{
-        font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
+    @include font (36px, 700, 42px, 0.03em);
         color: var(--primary-text-color);
         margin-bottom: 30px;
     
     }
     .masrers-item-title {
         font-family: Roboto, sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.14;
     text-align: center;
-    letter-spacing: 0.03em;
+    @include font (16px, 500, 18px, 0.03em);
         color: var(--primary-text-color);
         margin-bottom: 10px;
     
@@ -106,10 +96,7 @@
 
 .masters-item-text {
     font-family: Roboto, sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
+    text-align: center;
+@include font (16px, 400, 19px, 0.03em);
     color: var(--second-text-color);
 }

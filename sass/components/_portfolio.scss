@@ -7,11 +7,8 @@
 .work {
   font-family: Roboto;
 font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.24;
+@include font (14px, 700, 17px, 0.03em);
 text-align: center;
-letter-spacing: 0.03em;
 text-transform: uppercase;
   position: absolute;
   bottom: 0;
@@ -36,21 +33,22 @@ text-transform: uppercase;
 .gallery-title {
   font-family: Roboto;
 font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.17;
 text-align: center;
-letter-spacing: 0.03em;
+@include font (36px, 700, 42px, 0.03em);
 margin: auto;
 margin-bottom: 50px;
   color: var(--primary-text-color);
 }
+
 .gallery-top-text {
 font-family: Roboto;
 font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 1.56;
-letter-spacing: 0.03em;
+@include font (18px, 400, 28px, 0.03em);
 color: var(--title--text-color);
+}
+
+.gallery-top-wrapper {
+  position: relative;
+  overflow: hidden;
+
 }

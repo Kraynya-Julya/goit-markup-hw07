@@ -10,22 +10,16 @@
   }
   
   .text-button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(26 / 16);
+    @include font (16px, 500, 26px, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title--text-color);
     cursor: pointer;
   }
   
   .buton-text {
     font-family: Roboto, sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
     flex-basis: calc(100% / 5 - 8px);
+    @include font (16px, 500, 26px, 0.03em);
     margin-left: 8px;
     padding-top: 5px;
     padding-left: 15px;
@@ -63,20 +57,14 @@
   
   .buton-text-item {
     font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
+    @include font (16px, 500, 26px, 0.03em);
     color: var(--title--text-color);
     background-color: var(--accent-color);
   }
  
   .button-item {
     font-family: Roboto, sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
+    @include font (16px, 500, 26px, 0.03em);
     color: var(--accent-color);
   }
   
