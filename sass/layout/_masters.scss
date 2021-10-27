@@ -19,8 +19,6 @@
     fill: #afb1b8;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background-color, fill;
-    transition-duration: 250ms, 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0s, 0s;
         transition: color var(--second-text-color), border-color var(--second-text-color);
     &:hover,&.social-icon,
@@ -28,7 +26,8 @@
         fill: var(--title--text-color);
        background-color: var(--accent-color);
        border-color: var(--title--text-color);
-        
+       transition-duration: 250ms, 250ms;
+       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
     }
    }
 
