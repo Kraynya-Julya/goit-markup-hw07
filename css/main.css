@@ -50,7 +50,7 @@ img {
   align-items: center;
 }
 
-.button, .close-button, .features-icon, .gallery-list__work, .social-link, .clients-list__link, .clients-list__clients {
+.button, .close-button, .features-list__icon, .gallery-list__work, .social-link, .clients-list__link, .clients-list__clients {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,6 +139,10 @@ img {
   display: flex;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
 .header-novigation {
@@ -507,12 +511,12 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.features-icon__iten-antenna {
+.features-list__iten-antenna {
   width: 70px;
   height: 70px;
 }
 
-.features-icon {
+.features-list__icon {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -524,7 +528,7 @@ img {
   margin-left: 30px;
 }
 
-.features-icon__title {
+.features-list__title {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
@@ -536,11 +540,11 @@ img {
   text-transform: uppercase;
 }
 
-.features-icon__text {
+.features-list__text {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.14286;
+  line-height: 1.92857;
   letter-spacing: 0.03em;
   color: #757575;
   margin: 0;
@@ -648,7 +652,7 @@ img {
   color: var(--primary-text-color);
   font-size: 36px;
   font-weight: 700;
-  line-height: 0.5;
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   text-align: center;
   margin-top: 0;
@@ -904,6 +908,7 @@ ul {
 
 .contacts-item-list {
   font-family: Roboto;
+  font-style: normal;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71429;
@@ -1144,7 +1149,6 @@ ul {
 
 .gallery-list {
   flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
   margin-top: 30px;
   border: 1px solid #ececec;
   width: 370px;
