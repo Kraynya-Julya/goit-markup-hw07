@@ -1153,9 +1153,10 @@ ul {
 
 .gallery-list:hover .gallery-top-text {
   transform: translateY(0);
+  border: 1px solid #ececec;
 }
 
-.masters-item-bottom {
+.masters-item-btn {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 24px;
@@ -1180,7 +1181,7 @@ ul {
   margin: auto;
   font-size: 18px;
   font-weight: 700;
-  line-height: 0.11111;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
