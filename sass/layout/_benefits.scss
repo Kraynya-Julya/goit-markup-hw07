@@ -15,8 +15,8 @@
     
 }
 .features-list__title {
-    font-family: Roboto;
-    @include font (14px, 700, 16px, 0.03em);
+    font-family: Roboto;@include font (14px, 700, 16px, 0.03em);
+    
     align: left;
     display: flex;
      margin-bottom: 10px;
